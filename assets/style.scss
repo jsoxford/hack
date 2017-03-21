@@ -1,0 +1,50 @@
+---
+--- 
+
+body {
+  font-family: sans-serif;
+  max-width: 30em;
+  font-size: 125%;
+  margin: 2em;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin:0.25em 0;
+}
+hr {
+  border:none;
+  background: #eee;
+  height: 1px;
+}
+
+a{
+  color: #08f;
+}
+
+.todo::before {
+  content: 'TODO: ';
+  color: #888;
+  font-weight: 800
+}
+.todo {
+  padding: .5em;
+  font-style: italic;
+  color: #333;
+  opacity: 0.7;
+}
+
+#horse {
+  display: block;
+  height: 30vh;
+}
+#horse {
+  /*fill: #f3df49*/
+}
+
+@media (min-width: 600px) {
+  body {
+    margin: 2em auto
+  }
+  h1 {
+    font-size: 4em;
+  }
+}
