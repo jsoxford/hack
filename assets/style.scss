@@ -2,15 +2,16 @@
 --- 
 
 html {
-  font-size: 18px;
+  font-size: calc(1em + .2vw);
 }
 
 body {
   font-family: sans-serif;
   font-size: 1.25rem;
   line-height: 1.5;
-  max-width: 36rem;
+  width: 36rem;
   margin: 2rem;
+  max-width: calc(100% - 4rem);
 }
 
 h1,
