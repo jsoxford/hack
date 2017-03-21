@@ -58,10 +58,19 @@ a {
     font-weight: 800
   }
 }
+.svg {
+	display: block;
 
-#horse {
-  display: block;
-  height: 30vh;
+	svg {
+		width: 100%;
+		height: 100%;
+	}
+
+	&-horse {
+		width: 200px;
+		height: 180px;
+		margin: 8rem 0;
+	}
 }
 
 @media (min-width: 600px) {
