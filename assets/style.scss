@@ -116,7 +116,7 @@ a {
 
 #bars span:nth-child(1) {
   transform: rotate(40deg) translate(-40%, 120%);
-  background: $green;
+  background: $yellow;
   height: 30vh;
   position: absolute;
 }
@@ -137,7 +137,7 @@ a {
 
 #bars span:nth-child(4) {
   transform: rotate(-25deg) translate(40%);
-  background: $yellow;
+  background: $green;
   height: 20vmax;
 }
 
