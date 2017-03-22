@@ -17,7 +17,6 @@ body {
   font-size: 1.25rem;
   line-height: 1.5;
   width: 36rem;
-  margin: 2rem;
   max-width: calc(100% - 4rem);
 }
 
@@ -28,14 +27,22 @@ h4,
 h5,
 h6 {
   margin: 0.25rem 0;
-  mix-blend-mode: multiply;
 }
 
 h1 {
   color: $cyan;
 }
 h2 {
-  color: $green;
+  color: $pink;
+}
+
+main {
+  padding: 2rem;
+
+  background: rgba(255,255,255,0.8);
+  background: linear-gradient(to bottom,
+    rgba(255,255,255,0) 3em,
+    rgba(255,255,255,0.8) 9em);
 }
 
 p {
@@ -48,7 +55,7 @@ p {
 
 hr {
   border: 0;
-  background: #eee;
+  background: $yellow;
   height: 1px;
   width: 80%;
   margin: 1rem 10%;
@@ -86,7 +93,7 @@ a {
   &-horse {
     width: 200px;
     height: 180px;
-    margin: 3rem 0;
+    margin: 3rem 3rem;
   }
 }
 
@@ -112,19 +119,19 @@ a {
     transition: .3s;
 
     &:nth-child(1) {
-      transform: rotate(40deg) translate(-40%, 120%);
+      transform: rotate(40deg) translate(-40%, 90%);
       background: $yellow;
       height: 30vh;
-      position: absolute;
     }
 
     &:nth-child(2) {
       transform: rotate(-8deg) translate(-20%, -60%);
       background: $pink;
       height: 13vh;
+      position: absolute;
     }
     &:nth-child(3) {
-      transform: rotate(-15deg) translate(20%);
+      transform: rotate(15deg) translate(20%);
       background: $cyan;
       height: 20vmin;
       width: 80vmin;
