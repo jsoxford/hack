@@ -39,11 +39,11 @@ h2 {
 }
 
 p {
-	margin: 0;
+  margin: 0;
 
-	+ p {
-		margin-top: 1rem;
-	}
+  + p {
+    margin-top: 1rem;
+  }
 }
 
 hr {
@@ -59,7 +59,7 @@ a {
   text-decoration: none;
 
   &:hover {
-  	text-decoration: underline;
+    text-decoration: underline;
   }
 }
 
@@ -76,18 +76,18 @@ a {
   }
 }
 .svg {
-	display: block;
+  display: block;
 
-	svg {
-		width: 100%;
-		height: 100%;
-	}
+  svg {
+    width: 100%;
+    height: 100%;
+  }
 
-	&-horse {
-		width: 200px;
-		height: 180px;
-		margin: 3rem 0;
-	}
+  &-horse {
+    width: 200px;
+    height: 180px;
+    margin: 3rem 0;
+  }
 }
 
 @media (min-width: 600px) {
@@ -100,49 +100,45 @@ a {
 }
 
 
-// I know this could be nicer, but it's a hack
-// and so, yeah?
+.bars {
+  span {
+    display: block;
+    width: 100vw;
+    position: fixed;
+    background: $yellow;
+    top:0;
+    left:0;
+    z-index: -1;
+    transition: .3s;
 
-#bars span {
-  display: block;
-  width: 100vw;
-  position: fixed;
-  background: #fc0;
-  top:0;
-  left:0;
-  z-index: -1;
-  transition: .3s;
-}
+    &:nth-child(1) {
+      transform: rotate(40deg) translate(-40%, 120%);
+      background: $yellow;
+      height: 30vh;
+      position: absolute;
+    }
 
-#bars span:nth-child(1) {
-  transform: rotate(40deg) translate(-40%, 120%);
-  background: $yellow;
-  height: 30vh;
-  position: absolute;
-}
-
-#bars span:nth-child(2) {
-  transform: rotate(-8deg) translate(-20%, -60%);
-  background: $pink;
-  height: 13vh;
-}
-
-#bars span:nth-child(3) {
-  transform: rotate(-15deg) translate(20%);
-  background: $red;
-  height: 20vmin;
-  width: 80vmin;
-  position: absolute;
-}
-
-#bars span:nth-child(4) {
-  transform: rotate(-25deg) translate(40%);
-  background: $green;
-  height: 20vmax;
-}
-
-#bars span:nth-child(5) {
-  transform: rotate(25deg) translate(-40%, 160%);
-  background: $cyan;
-  height: 10vmin;
+    &:nth-child(2) {
+      transform: rotate(-8deg) translate(-20%, -60%);
+      background: $pink;
+      height: 13vh;
+    }
+    &:nth-child(3) {
+      transform: rotate(-15deg) translate(20%);
+      background: $cyan;
+      height: 20vmin;
+      width: 80vmin;
+      position: absolute;
+    }
+    &:nth-child(4) {
+      transform: rotate(-25deg) translate(40%);
+      background: $green;
+      height: 20vmax;
+    }
+    &:nth-child(5) {
+      transform: rotate(25deg) translate(-40%, 160%);
+      background: $red;
+      height: 10vmin;
+    }
+  }
 }
