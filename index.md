@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Render Hack
+# JSOxHack Render
 
 ## 30th March 6pm – 10pm
 
