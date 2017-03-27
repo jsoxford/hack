@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<h1>Entries</h1>
+
+<hr />
+
+{% for entry in site.entries %}
+<h3>{{ entry.name }}</h3>
+{{entry.content}}
+<ul class="members">
+{% for member in entry.members %}
+<li>
+  <a href="https://github.com/{{member}}">
+    {% avatar user=member %}
+  </a>
+</li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+<hr />
+
+How to add your team (requires a <a href="https://github.com/join">github</a> account):
+
+<h3>TODO: Make this better</h3>
+
+<ol>
+  <li>
+    Create a file <code><a href="https://github.com/jsoxford/hack/new/master/_entries?filename=YOUR_GH_USERNAME.md">_entries/YOUR_GH_USERNAME.md</a></code>
+  </li>
+  <li>
+    Fill out your information
+    <code><pre>---
+name: This your team name
+---
+
+Description of your hack
+</pre></code>
+  </li>
+  <li>
+    Build something!
+  </li>
+  <li>
+    Add a `url:` field with your hack (could be a site, or a photo, or anything)
+  </li>
+</ol>
+
+<hr />
