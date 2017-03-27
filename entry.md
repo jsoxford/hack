@@ -9,7 +9,7 @@ This form will generate the data for you to paste in to Github to create your ha
 1. Fill out the form
 2. Hit "Generate!"
 3. Copy the output text
-4. Go to the Render Hack Github repo and [create a file](https://github.com/jsoxford/hack/new/master/_entries?filename=yourhack.md) at `_entries/yourhack.md` (make sure you use an appropriate filename!)
+4. Go to the Render Hack Github repo and [create a file](https://github.com/jsoxford/hack/new/master/_entries/new?filename=yourhack.md) at `_entries/yourhack.md` (make sure you use an appropriate filename!)
 5. Paste your text
 6. Submit a new [_Pull Request_](https://github.com/jsoxford/hack/compare?expand=1)
 
