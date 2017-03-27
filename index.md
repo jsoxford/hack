@@ -5,6 +5,7 @@ layout: default
 # Render Hack
 
 ## 30th March 6pm – 10pm
+{: .sub-heading}
 
 We’re crazy proud to be running a super-mini hyper-great hack evening at [Render Conference](http://render-conf.com/).
 
@@ -24,7 +25,7 @@ You're free to hack on anything you want as long as:
 
 ## Hack Guides
 
-You can work on whatever you want! Though if you're stuck for ideas, or want help trying something new, you might be able to team up with a super-wonderful **Hack Guide**.
+You can work on whatever you want. Though if you're stuck for ideas, or want help trying something new, you might be able to team up with a super-wonderful **Hack Guide**.
 
 A **Hack Guide** will provide you with everything you need to get started with a project, and they'll also be on hand to give you help/tips along the way.  (Also, they're doing this because they're awesome - so be sure to throw some high-fives their way.)
 
@@ -34,7 +35,9 @@ A **Hack Guide** will provide you with everything you need to get started with a
 
 ## Where do I sign up?
 
-Github.
+GitHub.
+
+(We'll provide more details/instructions)
 
 
 ## Will there be prizes?
