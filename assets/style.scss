@@ -26,14 +26,26 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0.25rem 0;
+  margin: 2.3rem 0 .5rem 0;
+  line-height: normal;
+}
+
+.sub-heading {
+  margin:0
 }
 
 h1 {
   color: $cyan;
 }
-h2 {
+
+h2, h3, h4, h5, h6 {
   color: $pink;
+}
+
+small {font-size: 0.55em}
+
+ul {
+  margin:0
 }
 
 main {
@@ -64,7 +76,7 @@ hr {
 }
 
 a {
-  color: #08f;
+  color: $blue;
   text-decoration: none;
 
   &:hover {
