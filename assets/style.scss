@@ -180,10 +180,11 @@ form {
       height: 10rem;
     }
   }
-  button {
+  button,
+  .btn {
     max-width: 100%;
-    display: block;
-    margin: 0 0 2rem;
+    display: inline-block;
+    margin: 1rem 0 2rem;
     padding: .5em 1em;
     border: 0;
     background: $blue;
@@ -197,6 +198,7 @@ form {
     &:focus,
     &:hover {
       background: $green;
+      text-decoration: none;
     }
   }
   #output {
