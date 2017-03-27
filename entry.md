@@ -6,6 +6,9 @@ layout: default
 
 This form will generate the data for you to paste in to Github to create your hack entry.
 
+### Add note - we can't guarantee a hack guide.
+{: .todo}
+
 1. Fill out the form
 2. Hit "Generate!"
 3. Copy the output text
