@@ -1,4 +1,13 @@
+gems:
+  - jekyll-avatar
+
 collections:
-- organisers
-- hack_leaders
-- entries
+  - organisers
+  - hack_leaders
+  - entries
+
+exclude:
+  - js/node_modules
+  - js/package.json
+  - js/yarn.lock
+  - js/rollup.config.js
