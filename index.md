@@ -6,53 +6,49 @@ layout: default
 
 ## 30th March 6pm – 10pm
 
-We’re crazy proud to be running a super-mini hyper-great hack evening at Render Conf this year.
+We’re crazy proud to be running a super-mini hyper-great hack evening at [Render Conference](http://render-conf.com/).
 
-The hack will take place on the 30th of March (after the first day of the conference), and will be running from 6pm to 10pm.
+## The Plan
 
-To keep things simple - we’re going to be accepting a single URL per entry. These will be shown on screen while we do a quick-fire presentations after hacking.
+* 6.00pm - Welcome 👋
+* 6.15pm - Start Hacking
+* 9.45pm - Stop Hacking
+* 9.46pm - Presentations
 
-We’ll also be having a number of “Hack Guides” on hand to help people get up and running quickly on a few structured projects.
+## The Hacks
 
----
+You're free to hack on anything you want as long as:
 
-## Who's Running this
+1. You can build it in 3.5 hours
+2. It adheres to the [code of conduct](http://2017.render-conf.com/code-of-conduct) (ie. it's cool)
 
-This event is being organised by [JSOxford](http://jsoxford.com) - we're a local meetup group that remembers what jQuery UK was like.
+## Hack Guides
 
-<!--
-{% for person in site.organisers %}
-* {{ person.name }}
-{% endfor %}
+You can work on whatever you want! Though if you're stuck for ideas, or want help trying something new, you might be able to team up with a super-wonderful **Hack Guide**.
+
+A **Hack Guide** will provide you with everything you need to get started with a project, and they'll also be on hand to give you help/tips along the way.  (Also, they're doing this because they're awesome - so be sure to throw some high-fives their way.)
+
+[Find out more about our hack guides](guides)
+
+<small>(psst, **you** can be a hack guide too - just give us a shout)</small>
+
+## Where do I sign up?
+
+Github.
 
 
-## Hack Leaders
-
-Our hack leaders are
-
-{% for person in site.hack_leaders %}
-* {{ person.name }}
-{% endfor %}
-
-If you're interested in becoming a hack leader.
-
--->
-
----
-
-## Prizes?
+## Will there be prizes?
 
 There’ll probably definitely be prizes.
 
----
 
-## How to get involved
+## Who's organising this?
 
-Instructions of how to get involved
-{: .todo}
+This event-within-an-event is being organised by [JSOxford](http://jsoxford.com). We're a local tech group, and also a synergetic business-cat powerhouse that lives to re-brand both "bad planning" and "late notice" as "✨fun excitement✨".
 
-{% for person in site.attendees %}
-* {{ person.name }}
-{% endfor %}
+In particular: [Marcus](https://twitter.com/Marcus_Noble_), [Max](https://twitter.com/omgmog) & [Ben](https://twitter.com/benjaminbenben) have been instrumental in planning this event.
 
----
+
+## I like questions?
+
+[We've got an FAQ?](faq)
