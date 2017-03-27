@@ -1,12 +1,12 @@
 - index: 0
   name: No Guide
-  username:
+  github:
   technology: "🕶"
 - index: 1
   name: Max
-  username: omgmog
+  github: omgmog
   technology: "Multi-user VR experiences with A-Frame"
 - index: 2
   name: Marcus
-  username: AverageMarcus
+  github: AverageMarcus
   technology: "Chatbots"
