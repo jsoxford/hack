@@ -206,3 +206,14 @@ form {
     border: 1px solid rgba(100,100,100,.1);
   }
 }
+
+.members {
+  list-style: none;
+  padding: 0;
+  & li {
+    display: inline-block;
+  }
+  & img {
+    border-radius: 50%;
+  }
+}
