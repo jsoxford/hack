@@ -262,17 +262,19 @@ form {
 
 
 .guide {
-  display: flex;
   margin-bottom: 2rem;
+  overflow: hidden;
+  min-height: 100px;
 
   img {
     margin-right: 1rem;
-    width: 100px;
-    height: 100px;
+    float: left;
   }
   .details {
     font-size: 1rem;
     margin:0;
+    margin-left: calc(100px + 1rem);
+    line-height: 1.2;
   }
 
   .name {
@@ -280,12 +282,15 @@ form {
     color: $cyan
   }
   .technology {
-
+    @media (max-width: 500px) {
+      display: block;
+    }
   }
 
   .content {
     display: block;
     font-size: .8rem;
+    margin-top: .5rem;
   }
 
 }
