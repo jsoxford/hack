@@ -25,7 +25,7 @@ __Note: if you're a multi-person team, only one of you should sign up.__
     <label for="guide">Guide</label>
     <select name="guide" id="guide">
 
-      <option value="0">No Guide (🕶)</option>
+      <option value="">No Guide (🕶)</option>
       {% for guide in site.guides %}
         <option value="{{ guide.github }}">{{ guide.name }} ({{ guide.technology }})</option>
       {% endfor %}
@@ -43,32 +43,10 @@ __Note: if you're a multi-person team, only one of you should sign up.__
 {: .sub-heading}
 
 
-<!-- ```
----
-name: Team name
-members:
-  - username
-guide: username
----
-
-Your description here
-``` -->
-
-
 <div class="file-name" id="gh-filename">hacks/team-name.md</div>
-<pre class="file-content"><code id="gh-content">---
-name: Team name
-members:
-  - username
-guide: username
----
+<pre class="file-content"><code id="gh-content"></code></pre>
 
-Your description here</code></pre>
-
-The easiest way to do this is through the GitHub editor:
-
-<a href="#" id="gh-link">Click this link</a>
-
+<a href="#" id="gh-link">Create this file with GitHub</a>
 
 
 ## Step 3.
