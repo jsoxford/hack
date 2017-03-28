@@ -56,7 +56,7 @@ if(form) {
       values[field] = elements[i].value || ''
     });
 
-    filename.innerText = `(jsoxford/hack) _entries/${slug(values.name) || 'your-hack'}.md`
+    filename.innerText = `(jsoxford/hack) _hacks/${slug(values.name) || 'your-hack'}.md`
 
     const frontMatter = toYAML([
       ['name', values.name],
@@ -74,7 +74,7 @@ ${main}`
 
 
     content.innerText = ov;
-    let qlink = `https://github.com/jsoxford/hack/new/master/_entries/new?filename=yourhack.md&value=${encodeURIComponent(ov)}`;
+    let qlink = `https://github.com/jsoxford/hack/new/master/_hacks/new?filename=yourhack.md&value=${encodeURIComponent(ov)}`;
 
     link.href = qlink
   }

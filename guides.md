@@ -10,7 +10,7 @@ There's a limited number of spots available with each Guide - so make sure you'r
 
 ---
 
-{% for guide in site.data.guides %}
+{% for guide in site.guides %}
 
 ### {% avatar user=guide.github size=100 %} {{ guide.name }}
 {{ guide.technology }}

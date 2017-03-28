@@ -43,7 +43,7 @@ __Note: if you're a multi-person team, only one of you should sign up.__
 {: .sub-heading}
 
 
-<div class="file-name" id="gh-filename">hacks/team-name.md</div>
+<div class="file-name" id="gh-filename">filename.md</div>
 <pre class="file-content"><code id="gh-content"></code></pre>
 
 <a href="#" id="gh-link">Create this file with GitHub</a>

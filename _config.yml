@@ -4,7 +4,7 @@ gems:
 
 collections:
   - guides
-  - entries
+  - hacks
 
 exclude:
   - js/node_modules
