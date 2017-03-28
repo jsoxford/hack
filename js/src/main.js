@@ -1,4 +1,20 @@
 // import YAML from 'yamljs'
+import arrayish from 'is-arrayish'
+
+const YAMLValue = value => {
+  if(arrayish(value)) {
+    return value.map(v => `\n  - ${v}`).join('')
+  }
+  return `"${value}"`
+}
+
+const toYAML = items =>
+  items
+    .filter(item => item[1] && item[1].length)
+    .map(([key, value]) => `${key}: ${YAMLValue(value)}`)
+    .join('\n')
+
+window.toYAML = toYAML
 
 const slug = (text) =>
   (text||'').toString().toLowerCase()
@@ -40,17 +56,23 @@ if(form) {
       values[field] = elements[i].value || ''
     });
 
-    filename.innerText = `_hack/${slug(values.name)}.md`
+    filename.innerText = `(jsoxford/hack) _entries/${slug(values.name) || 'your-hack'}.md`
+
+    const frontMatter = toYAML([
+      ['name', values.name],
+      ['members', ghUsers(values.members)],
+      ['guide', values.guide]
+    ])
+    const main = values.description
 
     let ov =
 `---
-name: "${values.name}"
-members:${ghUsers(values.members).map(name => `\n  - ${name}`).join('')}
-guide: ${values.guide}
+${frontMatter}
 ---
-${values.description}
-`
-    ;
+
+${main}`
+
+
     content.innerText = ov;
     let qlink = `https://github.com/jsoxford/hack/new/master/_entries/new?filename=yourhack.md&value=${encodeURIComponent(ov)}`;
 
@@ -67,6 +89,8 @@ ${values.description}
     element.addEventListener('change', generateFile, false)
     element.addEventListener('keyup', generateFile, false)
   })
+
+  generateFile()
 
 
 }
