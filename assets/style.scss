@@ -236,6 +236,18 @@ form {
 
 .file-content {
   background: #f7f7f7;
-  padding: 0 1em;
+  padding: 1em;
   border-left: 3px solid $cyan;
+  margin-top: 0
+}
+
+.file-name {
+  background: #eeeeee;
+  border-left: 3px solid $cyan;
+  margin-bottom: 0;
+  margin-top: 2rem;
+  text-align: right;
+  color: $pink;
+  font-size: .8em;
+  padding: .2em;
 }

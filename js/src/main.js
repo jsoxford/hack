@@ -6,11 +6,6 @@ if(form) {
   const content = qs('#gh-content')
   const link = qs('#gh-link')
 
-
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-  });
-
   const fields = ['name', 'guide', 'description']
   let values = {
     name: '',
@@ -18,13 +13,11 @@ if(form) {
     description: ''
   };
 
-  qs('#submit').addEventListener('click', function (e) {
-    let existing_button = document.querySelector('.btn-load');
-    if (existing_button) {
-      existing_button.parentNode.removeChild(existing_button);
-    }
-    fields.forEach(function (field) {
-      values[field] = document.getElementById(field).value
+  const elements = fields.map( f => form.querySelector(`[name=${f}]`))
+
+  const generateFile = function (e) {
+    fields.forEach(function (field, i) {
+      values[field] = elements[i].value || ''
     });
 
     let ov =
@@ -39,6 +32,13 @@ ${values.description}
     let qlink = `https://github.com/jsoxford/hack/new/master/_entries/new?filename=yourhack.md&value=${encodeURIComponent(ov)}`;
 
     link.href = qlink
-  });
+  }
+
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault()
+    generateFile()
+  })
+
 
 }
