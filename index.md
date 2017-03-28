@@ -37,8 +37,7 @@ A **Hack Guide** will provide you with everything you need to get started with a
 
 GitHub.
 
-(We'll provide more details/instructions.)
-
+_(We'll provide some instructions closer to the time.)_
 
 ## Will there be prizes?
 
