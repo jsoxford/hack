@@ -6,6 +6,8 @@ layout: default
 
 We'll be using a [central GitHub repository](https://github.com/jsoxford/hack) to keep everything in sync.  If you don't have a GitHub account - [sign up now](https://github.com).
 
+__Note: if you're a multi-person team, only one of you should sign up.__
+
 ## Step 1.
 ### Enter some details
 {: .sub-heading}
@@ -23,7 +25,7 @@ We'll be using a [central GitHub repository](https://github.com/jsoxford/hack) t
     <label for="guide">Guide</label>
     <select name="guide" id="guide">
       {% for guide in site.data.guides %}
-        <option value="{{ guide.index }}">{{ guide.name }} ({{ guide.technology }})</option>
+        <option value="{{ guide.github }}">{{ guide.name }} ({{ guide.technology }})</option>
       {% endfor %}
     </select>
   </div>
