@@ -34,5 +34,10 @@ if(form) {
     generateFile();
   });
 
+  elements.forEach(function (element) {
+    element.addEventListener('change', generateFile, false);
+    element.addEventListener('keyup', generateFile, false);
+  });
+
 
 }

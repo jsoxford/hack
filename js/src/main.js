@@ -40,5 +40,10 @@ ${values.description}
     generateFile()
   })
 
+  elements.forEach(element => {
+    element.addEventListener('change', generateFile, false)
+    element.addEventListener('keyup', generateFile, false)
+  })
+
 
 }
