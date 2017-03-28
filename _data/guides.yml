@@ -1,12 +1,8 @@
-- index: 0
-  name: No Guide
-  github:
-  technology: "🕶"
-- index: 1
+-
   name: Max
   github: omgmog
   technology: "Multi-user VR experiences with A-Frame"
-- index: 2
+-
   name: Marcus
   github: AverageMarcus
   technology: "Chatbots"

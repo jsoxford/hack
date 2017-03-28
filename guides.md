@@ -11,10 +11,8 @@ There's a limited number of spots available with each Guide - so make sure you'r
 ---
 
 {% for guide in site.data.guides %}
-{% if guide.github %}
 
 ### {% avatar user=guide.github size=100 %} {{ guide.name }}
 {{ guide.technology }}
 
-{% endif %}
 {% endfor %}
