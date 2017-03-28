@@ -66,6 +66,8 @@ if(form) {
       values[field] = elements[i].value || '';
     });
 
+
+
     filename.innerText = "(jsoxford/hack) _hacks/" + (slug(values.name) || 'your-hack') + ".md";
 
     var frontMatter = toYAML([
@@ -80,7 +82,7 @@ if(form) {
 
 
     content.innerText = ov;
-    var qlink = "https://github.com/jsoxford/hack/new/master/_hacks/new?filename=yourhack.md&value=" + (encodeURIComponent(ov));
+    var qlink = "https://github.com/jsoxford/hack/new/master/_hacks/new?filename=" + (encodeURIComponent(slug(values.name) || 'your-hack')) + ".md&value=" + (encodeURIComponent(ov));
 
     link.href = qlink;
   };
