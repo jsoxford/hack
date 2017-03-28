@@ -1,6 +1,5 @@
 gems:
   - jekyll-avatar
-  - jemoji
 
 collections:
   - guides
