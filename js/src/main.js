@@ -25,7 +25,7 @@ const slug = (text) =>
     .replace(/-+$/, '')
 
 const ghUsers = (text) =>
-  (text||'').toString().toLowerCase()
+  (text||'').toString()
     .replace(/@/g, '')
     .replace(/,/g, ' ')
     .split(' ')

@@ -35,7 +35,7 @@ var slug = function (text) { return (text||'').toString().toLowerCase()
     .replace(/^-+/, '')
     .replace(/-+$/, ''); };
 
-var ghUsers = function (text) { return (text||'').toString().toLowerCase()
+var ghUsers = function (text) { return (text||'').toString()
     .replace(/@/g, '')
     .replace(/,/g, ' ')
     .split(' ')
