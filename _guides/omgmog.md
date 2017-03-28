@@ -1,5 +1,7 @@
 ---
 name: Max
 github: omgmog
-technology: "Multi-user VR experiences with A-Frame"
+technology: VR & A-Frame
 ---
+
+Multi-user VR experiences with A-Frame

@@ -1,5 +1,5 @@
 ---
 name: Gordon
 github: gfwilliams
-technology: JS Hardware
+technology: Espruino / Puck.js
 ---

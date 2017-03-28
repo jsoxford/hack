@@ -8,11 +8,22 @@ A **Hack Guide** will provide you with everything you need to get started with a
 
 There's a limited number of spots available with each Guide - so make sure you're able to make the most of them!
 
+**We're looking for more hack guides! If you've got something that you could help others with [we'd love to hear from you](https://github.com/jsoxford/hack/issues/4)**
+
 ---
 
 {% for guide in site.guides %}
 
-### {% avatar user=guide.github size=100 %} {{ guide.name }}
-{{ guide.technology }}
+<section class="guide">
+  {% avatar user=guide.github size=100 %}
+
+  <div class="details">
+    <span class="name">{{ guide.name }}</span>
+    <span class="technology">{{ guide.technology }}</span>
+    <span class="content">{{ guide.content }}</span>
+  </div>
+
+</section>
+
 
 {% endfor %}

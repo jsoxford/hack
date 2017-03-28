@@ -259,3 +259,33 @@ form {
   padding: .5em;
   display: block;
 }
+
+
+.guide {
+  display: flex;
+  margin-bottom: 2rem;
+  img {
+    margin-right: 1rem;
+    width: 100px;
+  }
+  .details {
+    flex: auto;
+    // display: block;
+    font-size: 1rem;
+    margin:0;
+  }
+
+  .name {
+    font-size: 2rem;
+    color: $cyan
+  }
+  .technology {
+
+  }
+
+  .content {
+    display: block;
+    font-size: .8rem;
+  }
+
+}
