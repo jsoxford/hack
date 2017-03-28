@@ -31,7 +31,6 @@ We'll be using a [central GitHub repository](https://github.com/jsoxford/hack) t
     <label for="description">Description <div><small>Markdown? Totes</small></div></label>
     <textarea name="description" id="description"></textarea>
   </div>
-  <button id="submit">Generate!</button>
 </form>
 
 
