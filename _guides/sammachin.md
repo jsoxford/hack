@@ -1,5 +1,5 @@
 ---
 name: Sam
-github: samdmachin
+github: sammachin
 technology: Nexmo or Amazon Alexa
 ---
