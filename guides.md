@@ -12,7 +12,8 @@ There's a limited number of spots available with each Guide - so make sure you'r
 
 ---
 
-{% for guide in site.guides %}
+{% assign guides = site.guides | sort: 'name' %}
+{% for guide in guides %}
 
 <section class="guide">
   {% avatar user=guide.github size=100 %}
