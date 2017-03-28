@@ -2,15 +2,15 @@
 layout: default
 ---
 
-# How to Sign up
+# Sign up
 
-We're going to use a [central GitHub repository](https://github.com/jsoxford/hack) to keep everything in sync.  If you don't have a GitHub account - [sign up now](https://github.com).
+We'll be using a [central GitHub repository](https://github.com/jsoxford/hack) to keep everything in sync.  If you don't have a GitHub account - [sign up now](https://github.com).
 
 ## Step 1.
 ### Enter some details
 {: .sub-heading}
 
-<form id="form">
+<form id="entry-form">
   <div class="field">
     <label for="name">Team name</label>
     <input type="text" name="name" id="name" placeholder="">
@@ -32,19 +32,15 @@ We're going to use a [central GitHub repository](https://github.com/jsoxford/hac
     <textarea name="description" id="description"></textarea>
   </div>
   <button id="submit">Generate!</button>
-  <div class="field">
-    <label for="output">Output</label>
-    <textarea id="output" onclick="this.focus();this.select()" readonly="readonly"></textarea>
-  </div>
 </form>
 
 
 ## Step 2.
-### Create a file in the our [GitHub](https://github.com/jsoxford/hack) project
+### Create a file in the [GitHub](https://github.com/jsoxford/hack) project
 {: .sub-heading}
 
 
-```
+<!-- ```
 ---
 name: Team name
 members:
@@ -53,12 +49,24 @@ guide: username
 ---
 
 Your description here
-```
-{: .file-content#content}
+``` -->
 
-<br>Your file should be named `team-name.md`, and be in the `_hacks` directory.
 
-The easiest way to do this is through the GitHub editor.  Click this link
+<div class="file-name" id="gh-filename">hacks/team-name.md</div>
+<pre class="file-content"><code id="gh-content">---
+name: Team name
+members:
+  - username
+guide: username
+---
+
+Your description here</code></pre>
+
+The easiest way to do this is through the GitHub editor:
+
+<a href="#" id="gh-link">Click this link</a>
+
+
 
 ## Step 3.
 ### Open a Pull Request

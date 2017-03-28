@@ -1,7 +1,13 @@
-(function () {
-  'use strict';
+var qs = document.querySelector.bind(document);
 
-  document.getElementById('form').addEventListener('submit', function (e) {
+var form = qs('#entry-form');
+if(form) {
+
+  var content = qs('#gh-content');
+  var link = qs('#gh-link');
+
+
+  form.addEventListener('submit', function (e) {
     e.preventDefault();
   });
 
@@ -12,7 +18,7 @@
     description: ''
   };
 
-  document.getElementById('submit').addEventListener('click', function (e) {
+  qs('#submit').addEventListener('click', function (e) {
     var existing_button = document.querySelector('.btn-load');
     if (existing_button) {
       existing_button.parentNode.removeChild(existing_button);
@@ -23,13 +29,10 @@
 
     var ov =
 "---\nname: \"" + (values.name) + "\"\nguide: " + (values.guide) + "\n---\n" + (values.description) + "\n";
-    var output_element = document.getElementById('output');
-    output_element.innerText = ov;
     content.innerText = ov;
     var qlink = "https://github.com/jsoxford/hack/new/master/_entries/new?filename=yourhack.md&value=" + (encodeURIComponent(ov));
-    var qtext = "Load this on Github";
-    output_element.outerHTML += "<a class=\"btn btn-load\" target=\"_blank\"href=\"" + qlink + "\">" + qtext + "</a>";
+
+    link.href = qlink;
   });
 
-
-}());
+}
