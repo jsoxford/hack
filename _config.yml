@@ -1,9 +1,9 @@
 gems:
   - jekyll-avatar
+  - jemoji
 
 collections:
-  - organisers
-  - hack_leaders
+  - guides
   - entries
 
 exclude:

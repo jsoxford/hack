@@ -26,7 +26,7 @@ __Note: if you're a multi-person team, only one of you should sign up.__
     <select name="guide" id="guide">
 
       <option value="0">No Guide (🕶)</option>
-      {% for guide in site.data.guides %}
+      {% for guide in site.guides %}
         <option value="{{ guide.github }}">{{ guide.name }} ({{ guide.technology }})</option>
       {% endfor %}
     </select>
