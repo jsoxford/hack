@@ -294,3 +294,80 @@ form {
   }
 
 }
+.md {
+  font-size: .8rem;
+  font-family: Fira Mino, courier;
+  margin: 1em 0;
+  color: #333;
+  background: rgba(#aaa, .1);
+  border: 1px solid rgba(100,100,100,.1);
+  padding: 1em;
+
+  h1, h2, h3, h4, h5, h6, p, ul, li {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  @for $n from 1 through 6 {
+    h#{$n} {
+      &::before {
+        $prefix: " ";
+        @for $h from 1 through $n {
+          $prefix: "##{$prefix}";
+        }
+        content: '#{$prefix}';
+      }
+    }
+  }
+
+  p {
+    + p {
+      margin-top: 1em;
+    }
+  }
+  ul, li {
+    list-style: none;
+  }
+  ul {
+    margin: 1em 0;
+    li {
+      &::before {
+        content: '- ';
+      }
+      ul {
+        margin-top: 0;
+        margin-bottom: .5em;
+      }
+      li {
+        margin-left: 1em;
+      }
+    }
+  }
+
+  blockquote {
+    margin: 1em 0;
+    padding: .5em 1em;
+    border-left: 2px solid currentColor;
+    font-style: italic;
+  }
+
+  a {
+    color: inherit;
+    &::before {
+      content: '[';
+    }
+    &::after {
+      content: ']';
+    }
+  }
+}

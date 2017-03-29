@@ -8,7 +8,10 @@ layout: default
 
 {% for entry in site.hacks %}
 <h3>{{ entry.name }}</h3>
-{{entry.content}}
+{% assign content_length = entry.content escape | strip_newlines | size %}
+{% if content_length > 0 %}
+  <article class="md">{{entry.content|markdownify}}</article>
+{% endif %}
 <ul class="members">
 {% for member in entry.members %}
 <li>
@@ -19,3 +22,6 @@ layout: default
 {% endfor %}
 </ul>
 {% endfor %}
+
+<!-- the head tag is for losers -->
+<link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
