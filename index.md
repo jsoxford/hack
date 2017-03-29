@@ -5,6 +5,8 @@ layout: default
 # Render Hack
 ## 30th March 6pm – 10pm
 
+[Register your hack!](register){: .massive-button}
+
 We’re crazy proud to be running a super-mini hyper-great hack evening at [Render Conference](http://render-conf.com/).
 
 ## The Plan
@@ -33,9 +35,9 @@ A **Hack Guide** will provide you with everything you need to get started with a
 
 ## Where do I sign up?
 
-GitHub.
+GitHub!
 
-_(We'll provide some instructions closer to the time.)_
+[Instructions on the register page!](register)
 
 ## Will there be prizes?
 
