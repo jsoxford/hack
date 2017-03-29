@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Sign up
+# Register
 
 We'll be using a [central GitHub repository](https://github.com/jsoxford/hack) to keep everything in sync.  If you don't have a GitHub account - [sign up now](https://github.com).
 
