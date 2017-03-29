@@ -13,12 +13,22 @@ layout: default
   <article class="md">{{entry.content|markdownify}}</article>
 {% endif %}
 <ul class="members">
+
+{% if entry.guide %}
+  <li class="hack-guide">
+    <a href="https://github.com/{{entry.guide}}">
+      {% avatar user=entry.guide %}
+    </a>
+  </li>
+{% endif %}
 {% for member in entry.members %}
-<li>
-  <a href="https://github.com/{{member}}">
-    {% avatar user=member %}
-  </a>
-</li>
+{% if member != entry.guide %}
+  <li>
+    <a href="https://github.com/{{member}}">
+      {% avatar user=member %}
+    </a>
+  </li>
+{% endif %}
 {% endfor %}
 </ul>
 {% endfor %}

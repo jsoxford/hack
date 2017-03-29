@@ -225,11 +225,41 @@ form {
 .members {
   list-style: none;
   padding: 0;
-  & li {
+  li {
     display: inline-block;
+    border: 2px solid #eee;
+    background: #eee;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+
+    &:hover {
+      border-color: $yellow;
+      background-color: $yellow;
+    }
+
+
+    &.hack-guide {
+      border-color: $cyan;
+      background-color: $cyan;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      overflow: hidden;
+      position: relative;
+      transition: .2s;
+
+      &:hover {
+        border-color: $green;
+        background-color: $green;
+      }
+    }
   }
-  & img {
-    border-radius: 50%;
+  img {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -269,6 +299,9 @@ form {
   img {
     margin-right: 1rem;
     float: left;
+    border-radius: 100%;
+    padding: 2px;
+    background-color: $cyan;
   }
   .details {
     font-size: 1rem;
@@ -370,4 +403,4 @@ form {
       content: ']';
     }
   }
-}
+}
