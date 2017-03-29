@@ -20,7 +20,8 @@ There's a limited number of spots available with each Guide - so make sure you'r
 
   <div class="details">
     <span class="name">{{ guide.name }}</span>
-    <span class="technology">{{ guide.technology }}</span>
+    <span class="github">(<a href="https://github.com/{{ guide.github }}">@{{ guide.github }}</a>)</span>
+    <span class="technology"><strong>Technology:</strong> {{ guide.technology }}</span>
     <span class="content">{{ guide.content }}</span>
   </div>
 

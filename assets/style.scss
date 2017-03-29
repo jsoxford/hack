@@ -327,15 +327,14 @@ form {
     color: $cyan
   }
   .technology {
-    @media (max-width: 500px) {
-      display: block;
-    }
+    display: block;
+    font-size: .9rem;
   }
 
   .content {
     display: block;
     font-size: .8rem;
-    margin-top: .5rem;
+    margin-top: 1rem;
   }
 
 }
