@@ -11,9 +11,9 @@ var index = function isArrayish(obj) {
 // import YAML from 'yamljs'
 var YAMLValue = function (value) {
   if(index(value)) {
-    return value.map(function (v) { return ("\n  - " + v); }).join('')
+    return value.map(function (v) { return ("\n  - " + v); }).join('');
   }
-  return ("\"" + value + "\"")
+  return ("\"" + value + "\"");
 };
 
 var toYAML = function (items) { return items
@@ -40,6 +40,10 @@ var ghUsers = function (text) { return (text||'').toString()
     .replace(/,/g, ' ')
     .split(' ')
     .filter(function (v) { return v; }); };
+
+var yamlHappyString = function (text) { return (text||'').toString()
+    .replace(/\"/g, '\'')
+    .replace(/\\/g, '\\\\'); };
 
 
 var qs = document.querySelector.bind(document);
@@ -71,7 +75,7 @@ if(form) {
     filename.innerText = "(jsoxford/hack) _hacks/" + (slug(values.name) || 'your-hack') + ".md";
 
     var frontMatter = toYAML([
-      ['name', values.name],
+      ['name', yamlHappyString(values.name)],
       ['members', ghUsers(values.members)],
       ['guide', values.guide]
     ]);
