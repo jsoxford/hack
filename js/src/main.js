@@ -76,7 +76,7 @@ ${main}`
 
 
     content.innerText = ov;
-    let qlink = `https://github.com/jsoxford/hack/new/master/_hacks/new?filename=${encodeURIComponent(slug(values.name) || 'your-hack')}.md&value=${encodeURIComponent(ov)}`;
+    let qlink = `https://github.com/jsoxford/hack/new/master/_hacks/${encodeURIComponent(slug(values.name) || 'your-hack')}.md?filename=${encodeURIComponent(slug(values.name) || 'your-hack')}.md&value=${encodeURIComponent(ov)}`;
 
     link.href = qlink
   }
