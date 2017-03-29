@@ -1,8 +1,8 @@
 ---
-name: "BREAK ALL TEH THINGS"
+name: "BREAK ALL TEH THINGS''''"
 members: 
   - javorszky
-guide: "omgmog"
+guide: "gfwilliams"
 ---
 
-TEsting for duplicate things
+Some derpiness * 2
