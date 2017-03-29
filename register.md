@@ -6,7 +6,9 @@ layout: default
 
 We'll be using a [central GitHub repository](https://github.com/jsoxford/hack) to keep everything in sync.  If you don't have a GitHub account - [sign up now](https://github.com).
 
-__Note: if you're a multi-person team, only one of you should sign up.__
+__Note: if you're a multi-person team, only one of you should sign up.  (Also, check [the list of hacks](hacks) to see if anyone is looking for a teammate.)__
+
+__Also note: Hack Guide places are limited - we'll be assigning guides to teams before we start.__
 
 ## Step 1.
 ### Enter some details
@@ -21,9 +23,8 @@ __Note: if you're a multi-person team, only one of you should sign up.__
     <input type="text" name="members" id="members" placeholder="@github @user-names">
   </div>
   <div class="field">
-    <label for="guide">Guide</label>
+    <label for="guide">Guide <div><small>(if possible)</small></div></label>
     <select name="guide" id="guide">
-
       <option value="">No Guide (🕶)</option>
       {% for guide in site.guides %}
         <option value="{{ guide.github }}">{{ guide.name }} ({{ guide.technology }})</option>
@@ -31,8 +32,8 @@ __Note: if you're a multi-person team, only one of you should sign up.__
     </select>
   </div>
   <div class="field">
-    <label for="description">Description <div><small>Markdown? Totes</small></div></label>
-    <textarea name="description" id="description"></textarea>
+    <label for="description">Description <div><small>Markdown? Totes.</small></div></label>
+    <textarea name="description" id="description" placeholder="describe your project, if you want people to join you - this is a good place to mention that"></textarea>
   </div>
 </form>
 
