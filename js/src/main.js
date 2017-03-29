@@ -31,6 +31,11 @@ const ghUsers = (text) =>
     .split(' ')
     .filter(v => v)
 
+const yamlHappyString = (text) =>
+  (text||'').toString()
+    .replace(/\"/g, '\'')
+    .replace(/\\/g, '\\\\');
+
 
 const qs = document.querySelector.bind(document)
 
@@ -61,7 +66,7 @@ if(form) {
     filename.innerText = `(jsoxford/hack) _hacks/${slug(values.name) || 'your-hack'}.md`
 
     const frontMatter = toYAML([
-      ['name', values.name],
+      ['name', yamlHappyString(values.name)],
       ['members', ghUsers(values.members)],
       ['guide', values.guide]
     ])
