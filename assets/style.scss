@@ -20,18 +20,21 @@ body {
   max-width: calc(100% - 1rem);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 2.3rem 0 .5rem 0;
   line-height: normal;
 }
 
-.sub-heading {
-  margin:0
+// When we're putting a h* next to another h*, diminish it a bit.
+// Only doing this for h1-h3
+@for $n from 1 through 3 {
+  h#{$n} {
+    @for $m from 1 through 3 {
+      + h#{$m} {
+        margin-top: 0;
+      }
+    }
+  }
 }
 
 h1 {

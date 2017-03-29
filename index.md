@@ -3,9 +3,7 @@ layout: default
 ---
 
 # Render Hack
-
 ## 30th March 6pm – 10pm
-{: .sub-heading}
 
 We’re crazy proud to be running a super-mini hyper-great hack evening at [Render Conference](http://render-conf.com/).
 

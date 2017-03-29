@@ -10,7 +10,6 @@ __Note: if you're a multi-person team, only one of you should sign up.__
 
 ## Step 1.
 ### Enter some details
-{: .sub-heading}
 
 <form id="entry-form">
   <div class="field">
@@ -40,7 +39,6 @@ __Note: if you're a multi-person team, only one of you should sign up.__
 
 ## Step 2.
 ### Create a file in the [GitHub](https://github.com/jsoxford/hack) project
-{: .sub-heading}
 
 
 <div class="file-name" id="gh-filename">filename.md</div>
@@ -51,6 +49,5 @@ __Note: if you're a multi-person team, only one of you should sign up.__
 
 ## Step 3.
 ### Open a Pull Request
-{: .sub-heading}
 
 One of our beautiful helpers will check & merge your PR.
