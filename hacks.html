@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<h1>Entries</h1>
+
+<hr />
+
+{% for entry in site.hacks %}
+<h3>{{ entry.name }}</h3>
+{{entry.content}}
+<ul class="members">
+{% for member in entry.members %}
+<li>
+  <a href="https://github.com/{{member}}">
+    {% avatar user=member %}
+  </a>
+</li>
+{% endfor %}
+</ul>
+{% endfor %}
