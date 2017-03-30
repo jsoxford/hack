@@ -1,8 +1,7 @@
 ---
 layout: default
+title: Hack Guides
 ---
-
-# Hack guides
 
 A **Hack Guide** will provide you with everything you need to get started with a project, and they'll also be on hand to give you help/tips along the way.  (Also, they're doing this because they're awesome - so be sure to throw some high-fives their way.)
 

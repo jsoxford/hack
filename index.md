@@ -1,8 +1,8 @@
 ---
 layout: default
+title: Render Hack
 ---
 
-# Render Hack
 ## 30th March 6pm – 10pm
 
 [Register your hack!](register){: .massive-button}
