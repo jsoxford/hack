@@ -1,0 +1,21 @@
+---
+layout: nil
+title: Super Presentation Moderiser
+---
+
+<hr />
+
+<ul>
+{% for entry in site.hacks %}
+  {% if entry.submission_url %}
+    <li><a href="{{ entry.submission_url }}">{{ entry.name }}.</a></li>
+  {% else %}
+    <li>{{ entry.name }} hasn't submitted yet 😒.</li>
+  {% endif %}
+{% else %}
+  <li>No hacks yet 😭</li>
+{% endfor %}
+</ul>
+
+<!-- the head tag is for losers -->
+<link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
