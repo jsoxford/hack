@@ -1,14 +1,14 @@
 ---
-layout: nil
-title: Super Presentation Moderiser
+layout: default
 ---
-
-<hr />
-
+<div>
+  <h1 id="time">No pressure!</h1>
+</div>
 <ul>
+
 {% for entry in site.hacks %}
   {% if entry.submission_url %}
-    <li><a href="{{ entry.submission_url }}">{{ entry.name }}.</a></li>
+    <li>🎉 <a href="{{ entry.submission_url }}">{{ entry.name }}.</a></li>
   {% else %}
     <li>{{ entry.name }} hasn't submitted yet 😒.</li>
   {% endif %}
@@ -19,3 +19,54 @@ title: Super Presentation Moderiser
 
 <!-- the head tag is for losers -->
 <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+
+<!-- inline JS is for winners -->
+<!-- stolen from http://codepen.io/jmikey/pen/tFHrp/ -->  
+<script>
+var secondsRemaining;
+var intervalHandle;
+
+function timerEnd() {
+  startCountdown();
+}
+
+function tick(){
+  // grab the h1
+  var timeDisplay = document.getElementById("time");
+
+  // turn the seconds into mm:ss
+  var min = Math.floor(secondsRemaining / 60);
+  var sec = secondsRemaining - (min * 60);
+
+  //add a leading zero (as a string value) if seconds less than 10
+  if (sec < 10) {
+    sec = "0" + sec;
+  }
+
+  // concatenate with colon
+  var message = min.toString() + ":" + sec;
+
+  // now change the display
+  timeDisplay.innerHTML = message;
+
+  // stop is down to zero
+  if (secondsRemaining === 0){
+    clearInterval(intervalHandle);
+    timerEnd();
+  }
+
+  //subtract from seconds remaining
+  secondsRemaining--;
+}
+
+function startCountdown(){
+  var minutes = 3;
+  secondsRemaining = minutes * 60;
+  intervalHandle = setInterval(tick, 1000);
+}
+
+window.onload = function(){
+  startCountdown();
+}
+
+</script>
