@@ -15,4 +15,4 @@ Funsies.
 
 ---
 
-Final result: https://github.com/remy/old-servers
+Final result: [https://github.com/remy/old-servers](https://github.com/remy/old-servers)
