@@ -1,8 +1,10 @@
 ---
-name: Adrian Singh (singh_adrian@hotmail.com)
+name: Adrian Singh
 members: 
   - adrian-singh
 guide: "gfwilliams"
 ---
 
 Javascript breakout game running on an espruino controlled light box.
+
+[See it in action](https://www.youtube.com/watch?v=xF5OSlaqBvE)
