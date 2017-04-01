@@ -1,5 +1,6 @@
 ---
 layout: default
+title: FAQ
 ---
 
 # <small>it's </small>Fun<small> to </small>Answer Questions<small><small> sometimes</small></small>
