@@ -1,11 +1,16 @@
 ---
 layout: default
 title: Render Hack
+passed: True
 ---
 
 ## 30th March 6pm – 10pm
 
-[Register your hack!](register){: .massive-button}
+{% if page.passed %}
+  [See the hacks!](hacks){:.massive-button}
+{% else %}
+  [Register your hack!](register){: .massive-button}
+{% endif %}
 
 We’re crazy proud to be running a super-mini hyper-great hack evening at [Render Conference](http://render-conf.com/).
 
