@@ -13,9 +13,11 @@ Probably.  Though you could also find someone else with a laptop and make a team
 
 Yes.
 
-We run more hacks like this through the summer - [stay in touch](http://jsoxford.com) to hear about them.
+## Is there a limit to the number of people led by a hack guide?
 
-## Why is there a limit to the number of people led by a hack guide?
+Yes. But that limit will depend on how much interest there is.
+
+## Why?
 
 1. To make it easier for them
 2. To make sure we're building different things

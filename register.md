@@ -7,8 +7,6 @@ We'll be using a [central GitHub repository](https://github.com/jsoxford/hack) t
 
 __Note: if you're a multi-person team, only one of you should sign up.  (Also, check [the list of hacks](hacks) to see if anyone is looking for a teammate.)__
 
-__Also note: Hack Guide places are limited - we'll be assigning guides to teams before we start.__
-
 ## Step 1.
 ### Enter some details
 
@@ -38,16 +36,19 @@ __Also note: Hack Guide places are limited - we'll be assigning guides to teams 
 
 
 ## Step 2.
-### Create a file in the [GitHub](https://github.com/jsoxford/hack) project
+### Preview
 
 
 <div class="file-name" id="gh-filename">filename.md</div>
 <pre class="file-content"><code id="gh-content"></code></pre>
 
+
+## Step 3.
+
 <a href="#" id="gh-link">Create this file with GitHub</a>
 
 
-## Step 3.
+## Step 4.
 ### Open a Pull Request
 
 One of our beautiful helpers will check & merge your PR.
