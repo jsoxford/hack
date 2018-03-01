@@ -42,7 +42,11 @@ A **Hack Guide** will help you get started with a project, and they'll also be o
 
 ## Where do I sign up?
 
-There's no need to sign up, it's free to just come along and start working on something. If you do want to register your idea ahead of time and see if other people want to work with you then you can register on GitHub!
+There's no need to sign up, it's free to just come along and start working on something.
+
+If you do want to register your idea ahead of time and see if other people want to work with you then you can register on GitHub!
+
+We'd like people to who do build something to register so we can share with everything what we've all achieved. But if you don't want to that's cool too!
 
 [Instructions on the register page!](register)
 
@@ -51,6 +55,7 @@ There's no need to sign up, it's free to just come along and start working on so
 
 There’ll probably definitely maybe be prizes.
 
+We're not looking for people to be competitive. Prizes will be awarded to people based on having fun and embracing the spirit of learning / hacking.
 
 ## Who's organising this?
 
