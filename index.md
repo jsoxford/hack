@@ -33,7 +33,7 @@ You're free to hack on anything you want as long as:
 
 You can work on whatever you want. Though if you're stuck for ideas, or want help trying something new, you might be able to team up with a super-wonderful **Hack Guides**.
 
-A **Hack Guide** will provide you with everything you need to get started with a project, and they'll also be on hand to give you help/tips along the way.  (Also, they're doing this because they're awesome - so be sure to throw some high-fives their way.)
+A **Hack Guide** will help you get started with a project, and they'll also be on hand to give you help/tips along the way and "[rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging)" any problems you face. (Also, they're doing this because they're awesome - so be sure to throw some high-fives their way.)
 
 [Find out more about our hack guides](guides)
 

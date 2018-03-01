@@ -3,7 +3,7 @@ layout: default
 title: Hack Guides
 ---
 
-A **Hack Guide** will provide you with everything you need to get started with a project, and they'll also be on hand to give you help/tips along the way. (Also, they're doing this because they're awesome - so be sure to throw some high-fives their way.)
+A **Hack Guide** will help you get started with a project, and they'll also be on hand to give you help/tips along the way and "[rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging)" any problems you face. (Also, they're doing this because they're awesome - so be sure to throw some high-fives their way.)
 
 ---
 
