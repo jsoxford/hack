@@ -3,11 +3,7 @@ layout: default
 title: Hack Guides
 ---
 
-A **Hack Guide** will provide you with everything you need to get started with a project, and they'll also be on hand to give you help/tips along the way.  (Also, they're doing this because they're awesome - so be sure to throw some high-fives their way.)
-
-There's a limited number of spots available with each Guide - so make sure you're able to make the most of them!
-
-**We're looking for more hack guides! If you've got something that you could help others with [we'd love to hear from you](https://github.com/jsoxford/hack/issues/4)**
+A **Hack Guide** will help you get started with a project, and they'll also be on hand to give you help/tips along the way and "[rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging)" any problems you face. (Also, they're doing this because they're awesome - so be sure to throw some high-fives their way.)
 
 ---
 

@@ -7,15 +7,21 @@ title: FAQ
 
 ## Do I need a laptop?
 
-Probably.  Though you could also find someone else with a laptop and make a team with them, or work on something that doesn't need a computer.
+Probably. Though you could also find someone else with a laptop and make a team with them, or work on something that doesn't need a computer.
 
 ## Do I have to be coming to the Conference to attend this hack?
 
 Yes.
 
-We run more hacks like this through the summer - [stay in touch](http://jsoxford.com) to hear about them.
+## Is there a limit to the number of people led by a hack guide?
 
-## Why is there a limit to the number of people led by a hack guide?
+Yes. But that limit will depend on how much interest there is.
+
+## Are there any challenges?
+
+Our main focus is for everyone to have a good time and try to learn something new. That being said, we may have some challenges on the day that people can attempt.
+
+## Why?
 
 1. To make it easier for them
 2. To make sure we're building different things
@@ -24,4 +30,4 @@ We run more hacks like this through the summer - [stay in touch](http://jsoxford
 
 ### More questions:
 
-If you've got some more questions - then head to the #render-hack channel in the Render Slack, or raise an issue in our [github repo](https://github.com/jsoxford/hack/issues/new?labels=question)
+If you've got some more questions - then head to the **#render-hack** channel in the [Render Slack](https://renderconf.slack.com/), or raise an issue in our [github repo](https://github.com/jsoxford/hack/issues/new?labels=question)
