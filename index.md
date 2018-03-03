@@ -31,7 +31,7 @@ You're free to hack on anything you want as long as:
 
 ## Hack Guides
 
-You can work on whatever you want. Though if you're stuck for ideas, or want help trying something new, you might be able to team up with a super-wonderful **Hack Guides**.
+You can work on whatever you want. Though if you're stuck for ideas, or want help trying something new, you might be able to team up with one of our super-wonderful **Hack Guides**.
 
 A **Hack Guide** will help you get started with a project, and they'll also be on hand to give you help/tips along the way and "[rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging)" any problems you face. (Also, they're doing this because they're awesome - so be sure to throw some high-fives their way.)
 
@@ -46,7 +46,7 @@ There's no need to sign up, it's free to just come along and start working on so
 
 If you do want to register your idea ahead of time and see if other people want to work with you then you can register on GitHub!
 
-We'd like people to who do build something to register so we can share with everything what we've all achieved. But if you don't want to that's cool too!
+We'd like people who do build something to register so we can share everything that we've achieved. But if you don't want to that's cool too!
 
 [Instructions on the register page!](register)
 

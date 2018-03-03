@@ -13,18 +13,9 @@ Probably. Though you could also find someone else with a laptop and make a team 
 
 Yes.
 
-## Is there a limit to the number of people led by a hack guide?
-
-Yes. But that limit will depend on how much interest there is.
-
 ## Are there any challenges?
 
 Our main focus is for everyone to have a good time and try to learn something new. That being said, we may have some challenges on the day that people can attempt.
-
-## Why?
-
-1. To make it easier for them
-2. To make sure we're building different things
 
 ---
 
