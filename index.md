@@ -4,7 +4,7 @@ title: Render Hack
 passed: False
 ---
 
-## 23th March 6pm – 9pm
+## 23rd March 6pm – 9pm
 
 [Register your hack!](register){: .massive-button}
 [See the hacks!](hacks){:.massive-button}
